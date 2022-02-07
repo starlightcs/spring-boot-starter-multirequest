@@ -1,4 +1,4 @@
-# spring-boot-starter-multirequest : Get Http Body Param
+# spring-boot-starter-multirequest
 
 MultiRequestBody 是为了解决使用 @RequestBody 时，必须定义 Dto （或 String 接收解析） 的问题，基于 RequestBody 的逻辑，写了 MultiRequestBody 以支持读取 body 下的参数
 
@@ -15,7 +15,7 @@ MultiRequestBody 是为了解决使用 @RequestBody 时，必须定义 Dto （�
     <dependencies>
         ...
         <dependency>
-            <groupId>io.github.starlightcsio.github.starlightcs</groupId>
+            <groupId>io.github.starlightcs</groupId>
             <artifactId>spring-boot-starter-multirequest</artifactId>
             <version>1.0.0.RELEASE</version>
         </dependency>
